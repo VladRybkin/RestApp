@@ -9,8 +9,6 @@
 
     <bean id="user" class="ua.training.model.User"/>
     <bean id="userService" class="ua.training.service.impl.UserServiceImpl"/>
-    <bean id="userController" class="ua.training.controller.UserController">
-        <constructor-arg ref="userService"/>
-    </bean>
+
 
 </beans>
